@@ -1,6 +1,6 @@
 # A* Pathfinding Algorithm Visualizer
 
-An interactive desktop application built with **Python** and **Pygame** that visualizes how the **A* (A-Star) Pathfinding Algorithm** calculates the shortest path between two points around user-defined barriers in real-time.
+An interactive desktop application built with **Python** and **Pygame** that visualizes how the **A-Star Pathfinding Algorithm* calculates the shortest path between two points around user-defined barriers in real-time.
 
 ---
 
@@ -14,7 +14,8 @@ An interactive desktop application built with **Python** and **Pygame** that vis
 
 | Initial Setup & Barriers | Algorithm In Progress | Final Shortest Path |
 | :---: | :---: | :---: |
-| ![Setup Screenshot](screenshots/setup.png) | ![In Progress Screenshot](screenshots/in_progress.png) | ![Final Path Screenshot](screenshots/final_path.png) |
+| ![Setup Screenshot](screenshots/initial1.png) | ![In Progress Screenshot](screenshots/during1.png) | ![Final Path Screenshot](screenshots/final1.png) |
+| ![Setup Screenshot](screenshots/initial2.png) | ![In Progress Screenshot](screenshots/during2.png) | ![Final Path Screenshot](screenshots/final2.png) |
 | *Placing start, end, and wall nodes* | *Open (Green) and Closed (Red) sets* | *Reconstructed path (Purple)* |
 
 ---
@@ -70,5 +71,15 @@ $$F(n) = G(n) + H(n)$$
 * **Python 3.x**
 * **Pygame** library
 
-```bash
-pip install pygame
+---
+
+## 6. References and Resources Used
+
+* **[A* Pathfinding Visualization Tutorial in Python](https://www.youtube.com/watch?v=JtiK0DOeI4A)** — *Tech With Tim*
+  > Provided the foundational tutorial for setting up the Pygame grid interface, priority queue structure, and node rendering pipeline.
+
+* **[A* Pathfinding in 5 minutes](https://www.youtube.com/watch?v=ySN5Wnu88nE)** — *Computerphile*
+  > Gave a concise conceptual explanation of how the open and closed sets operate during graph traversal.
+
+* **[A* Pathfinding Concept](https://www.youtube.com/watch?v=6TsL96NAZCo)** — *John Levine*
+  > Helped clarify the math behind G-cost, H-cost, and F-score calculations.
